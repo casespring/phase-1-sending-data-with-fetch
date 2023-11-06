@@ -1,5 +1,5 @@
 require ( './helpers.js' );
-
+const { config } = require("chai")
 require( './helpers' );
 const chai = require( 'chai' );
 const spies = require( 'chai-spies' );
